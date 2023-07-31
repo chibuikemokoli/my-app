@@ -29,7 +29,7 @@
 }
 
 .hero .content{
-    position: relative;
+    position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
@@ -49,4 +49,14 @@
 
 .content .btn{
     margin: 1rem 0.2rem;
+}
+
+@media screen and (max-width:640px) {
+    .hero .content h1{
+        font-size: 3rem;
+    }
+    
+    .hero .content p{
+        font-size: 1.4rem;
+    }
 }
