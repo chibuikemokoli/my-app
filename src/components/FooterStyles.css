@@ -21,8 +21,9 @@
 }
 
 .location{
-    display: flex;
+    /* display: flex; */
     margin-bottom: 0.8rem;
+    padding: 1rem;
 }
 
 .location p{

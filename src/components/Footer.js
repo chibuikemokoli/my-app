@@ -10,10 +10,8 @@ const Footer = () => {
       <div className="footer-container">
         <div className="left">
           <div className="location">
-            <FaHome size={20} style={{color:"#fff", marginRight:"2rem" }} />
             <div>
-              <p>123 doings srmovr</p>
-              <p>Nigeria</p>
+              <h4><FaHome size={20} style={{color:"#fff", marginRight:"2rem" }} />123 doings srmovr</h4>
             </div>
 
             <div className="phone">
